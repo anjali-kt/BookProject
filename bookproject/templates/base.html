@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OnlineBookStore</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+<nav class="navbar navbar-white bg-dark">
+  <a class="navbar-brand" href="#">
+
+    Online Book Store
+  </a>
+</nav>
+{% block body %}
+{% endblock %}
+</body>
+</html>
